@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    height: 100px;
+    background-image: url('https://thumbs.dreamstime.com/z/perfume-bottles-icons-seamless-pattern-sketch-line-style-hand-drawn-fragrance-texture-doodle-vector-illustration-print-252739240.jpg');
+    background-size: 100px;
+    background-color: palevioletred;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    color: white;
+    font-size: 3rem;
+    text-shadow: 1px 1px 2px grey;
+    background-color: rgb(233, 173, 201);
+    width: 95%;
+    padding: 10px;
+    text-align: center;
+    border: 3px solid palevioletred;
+}
+
+#main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+}
+
+#rules{
+    width: 80%;
+    border: 1px solid palevioletred;
+    margin-top: 25px;
+    color: palevioletred;
+    text-shadow: 1px 1px 2px grey;
+    padding: 5px;
+}
+
+p{
+    font-size: 1.4rem;
+    margin-top: 5px;;
+}
+
+#playSpace{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   margin-top: 50px;
+}
+
+#gameBoard{
+    width:550px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card{
+    border: 3px solid palevioletred;
+    min-width: 125px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2px;
+}
+
+img{
+    width: 125px;
+}
+
+.front{
+    display: none;
+}
+
+.front.flip, .match{
+    display: unset;
+}
+
+.back.hidden{
+display: none;
+}
+
+#result{
+    margin-top: 25px;
+    color: palevioletred;
+    font-size: 2rem;
+}
+
+button{
+    margin-top: 25px;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    background-color: palevioletred;
+    color: white;
+    font-size: 1rem;
+}
