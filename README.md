@@ -1,22 +1,16 @@
-# ♠️ Week08 Bootcamp2019a Project: Matching Card Game
+# Scentsational Matching Card Game
+Scentsational Match is a frontend memory matching game built with JavaScript, HTML, and CSS. The game challenges users to match pairs of cards featuring iconic and infamous perfume bottles. Each time a player clicks two cards, the game checks for a match—if the perfumes match, they stay revealed; if not, they flip back over. The goal is to match all pairs using the fewest moves possible. 
 
-### Goal: Make a 10 card memory game - users must be able to select two cards and check if they are a match. If they are a match, they stay flipped. If not, they flip back over. Game is done when all cards are matched and flipped over. Example: http://www.fruit-burst.co.uk/fun-and-games/pairs-game 
+**Link to project:** https://scentsational-match.netlify.app/
 
-### How to submit your code for review:
+![alt tag](/images/Scensational-Match.png)
 
-- Fork and clone this repo
-- Create a new branch called answer
-- Checkout answer branch
-- Push to your fork
-- Issue a pull request
-- Your pull request description should contain the following:
-  - (1 to 5 no 3) I completed the challenge
-  - (1 to 5 no 3) I feel good about my code
-  - Anything specific on which you want feedback!
+## How It's Made:
 
-Example:
-```
-I completed the challenge: 5
-I feel good about my code: 4
-I'm not sure if my constructors are setup cleanly...
-```
+**Tech used:** HTML, CSS, JavaScript, Framework of choice
+
+I built Perfume Pair-Up using vanilla JavaScript, HTML, and CSS as a frontend-only project to practice core web development fundamentals. I created a grid of cards dynamically with JavaScript, each representing a different perfume image, and implemented logic to shuffle the cards at the start of each game to ensure random layout. I used event listeners to track user clicks, compare two selected cards, and determine whether they match. Matching cards remain visible, while non-matching pairs flip back. When all the cards are flipped, you win!
+
+## Lessons Learned:
+
+This project helped me strengthen my understanding of DOM manipulation, event handling, and game logic, while also exploring creative design through a themed visual experience.
